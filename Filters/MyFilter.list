@@ -1,4 +1,4 @@
-* My Filter for QuantumultX
+#  My Filter for QuantumultX
 
 host, stun.l.google.com, proxy
 host-suffix, unwire.hk, proxy
