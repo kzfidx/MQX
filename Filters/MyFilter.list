@@ -1,4 +1,4 @@
-#  My Filter for QuantumultX
+# My Filter for QuantumultX
 
 host-suffix, xyz, proxy
 host, stun.l.google.com, proxy
