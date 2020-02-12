@@ -1,7 +1,13 @@
 # My Filter for QuantumultX
 
-host-suffix, pro, proxy
+#HOST
 host, stun.l.google.com, proxy
+
+#HOST-SUFFIX
+host-suffix, pro, proxy
 host-suffix, unwire.hk, proxy
 host-suffix, xyz, proxy
 host-suffix, tw, proxy
+
+#HOST-KEYWORD
+host-keyword,zhs, proxy
