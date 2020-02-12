@@ -5,4 +5,3 @@ host, stun.l.google.com, proxy
 host-suffix, unwire.hk, proxy
 host-suffix, xyz, proxy
 host-suffix, tw, proxy
-geoip, tw, proxy
