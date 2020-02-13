@@ -20,3 +20,4 @@ host-suffix, app-measurement.com, proxy
 #HOST-KEYWORD
 host-keyword,zhs, proxy
 host-keyword, dwnews, proxy
+host-keyword, rthk, proxy
