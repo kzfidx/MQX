@@ -3,7 +3,6 @@ var token = "e03510c6fccc76decc0303855da55508f1caa6af";
 var city ="here"
 //https://aqicn.org/city/all 
 
-
 function aqi(){
 	let qurl = {
 		url: "https://api.waqi.info/feed/" + city + "/?token=" + token, headers: {},
