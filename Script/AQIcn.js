@@ -1,5 +1,8 @@
 var token = "e03510c6fccc76decc0303855da55508f1caa6af";
+//https://aqicn.org/data-platform/token/ 獲取token
 var city ="here"
+//https://aqicn.org/city/all 
+
 
 function aqi(){
 	let qurl = {
