@@ -8,6 +8,7 @@ Due to the validity of cookie, if the script pops up a notification of cookie in
 Daily bonus script will be performed every day at 0:05 a.m. You can modify the execution time.
 If reprinted, please indicate the source. My TG channel @NobyDa
 
+
 Update 2020.2.12 1:00 v65 
 Effective number: 21
 ~~~~~~~~~~~~~~~~
