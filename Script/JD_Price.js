@@ -1,5 +1,13 @@
 /*
 README：https://github.com/yichahucha/surge/tree/master
+使用不生效或失效的检查一下配置有没有这两条复写，如果有删除试试
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=start - reject
+^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts) - reject
+
+[rewrite_local]
+^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
+[mitm]
+hostname = api.m.jd.com
  */
 
 const path1 = "serverConfig";
