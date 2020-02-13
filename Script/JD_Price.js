@@ -5,6 +5,7 @@ README：https://github.com/yichahucha/surge/tree/master
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts) - reject
 
 [rewrite_local]
+# Display jd historical price
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) url script-response-body jd_price.js
 [mitm]
 hostname = api.m.jd.com
