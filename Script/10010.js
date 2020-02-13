@@ -1,3 +1,4 @@
+var log = true;
 var tel = "18665608330";
 //上行引號內填入聯通號碼，使用前請登陸一次聯通支付寶小程序
 //有問題請通過Telegram反饋 https://t.me/Leped_Bot
