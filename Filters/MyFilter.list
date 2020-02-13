@@ -9,7 +9,7 @@ host, stun.l.google.com, proxy
 #HOST-SUFFIX
 host-suffix, ntdtv.com, proxy
 host-suffix, branch.io, proxy
-host-suffix, snapshot.com, proxy
+host-suffix, snapchat.com, proxy
 host-suffix, hk, proxy
 host-suffix, pro, proxy
 host-suffix, xyz, proxy
