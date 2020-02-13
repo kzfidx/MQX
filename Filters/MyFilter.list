@@ -1,5 +1,8 @@
 # My Filter for QuantumultX
 
+#Router
+ip-cidr, 19.89.7.0/24, direct
+
 #HOST
 host, stun.l.google.com, proxy
 
