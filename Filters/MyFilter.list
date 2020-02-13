@@ -10,7 +10,8 @@ host-suffix, xyz, proxy
 host-suffix, tw, proxy
 host-suffix, fast.com, Netflix
 host-suffix, engadget.com, proxy
-host-suffix, app-measurement.com, proxy #Google服務
+# Google服務
+host-suffix, app-measurement.com, proxy
 
 #HOST-KEYWORD
 host-keyword,zhs, proxy
