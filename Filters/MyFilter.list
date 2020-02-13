@@ -7,6 +7,7 @@
 host, stun.l.google.com, proxy
 
 #HOST-SUFFIX
+host-suffix, snapshot.com, proxy
 host-suffix, hk, proxy
 host-suffix, pro, proxy
 host-suffix, xyz, proxy
@@ -18,3 +19,4 @@ host-suffix, app-measurement.com, proxy
 
 #HOST-KEYWORD
 host-keyword,zhs, proxy
+host-keyword, dwnews, proxy
