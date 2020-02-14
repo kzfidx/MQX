@@ -5,6 +5,15 @@ ip-cidr, 19.89.7.0/24, direct
 
 #HOST
 host, stun.l.google.com, proxy
+# > Gmail
+DOMAIN,pop.gmail.com,proxy
+DOMAIN,imap.gmail.com,proxy
+DOMAIN,smtp.gmail.com,proxy
+# > Outlook
+DOMAIN,outlook.office365.com,direct
+DOMAIN,smtp.office365.com,direct
+DOMAIN,imap-mail.outlook.com,direct
+DOMAIN,smtp-mail.outlook.com,direct
 
 #HOST-SUFFIX
 host-suffix, ntdtv.com, proxy
