@@ -1,35 +1,30 @@
 # My Filter for QuantumultX
 
 #Router
-ip-cidr, 19.89.7.0/24, direct
+IP-CIDR, 19.89.7.0/24, DIRECT
 
 #HOST
-host, stun.l.google.com, proxy
+DOMAIN, stun.l.google.com, PROXY
 # > Gmail
-DOMAIN,pop.gmail.com,proxy
-DOMAIN,imap.gmail.com,proxy
-DOMAIN,smtp.gmail.com,proxy
-# > Outlook
-DOMAIN,outlook.office365.com,direct
-DOMAIN,smtp.office365.com,direct
-DOMAIN,imap-mail.outlook.com,direct
-DOMAIN,smtp-mail.outlook.com,direct
+DOMAIN, pop.gmail.com, PROXY
+DOMAIN,i map.gmail.com, PROXY
+DOMAIN, smtp.gmail.com, PROXY
 
 #HOST-SUFFIX
-host-suffix, ntdtv.com, proxy
-host-suffix, branch.io, proxy
-host-suffix, snapchat.com, proxy
-host-suffix, hk, proxy
-host-suffix, pro, proxy
-host-suffix, xyz, proxy
-host-suffix, tw, proxy
-host-suffix, fast.com, Netflix
-host-suffix, engadget.com, proxy
+DOMAIN-SUFFIX, ntdtv.com, PROXY
+DOMAIN-SUFFIX, branch.io, PROXY
+DOMAIN-SUFFIX, snapchat.com, PROXY
+DOMAIN-SUFFIX, hk, PROXY
+DOMAIN-SUFFIX, pro, PROXY
+DOMAIN-SUFFIX, xyz, PROXY
+DOMAIN-SUFFIX, tw, PROXY
+DOMAIN-SUFFIX, fast.com, Netflix
+DOMAIN-SUFFIX, engadget.com, PROXY
 # Google服務
-host-suffix, app-measurement.com, proxy
+DOMAIN-SUFFIX, app-measurement.com, PROXY
 
 #HOST-KEYWORD
-host-keyword,zhs, proxy
-host-keyword, dwnews, proxy
-host-keyword, rthk, proxy
-host-keyword, thestandnews, proxy
+DOMAIN-KEYWORD, zhs, PROXY
+DOMAIN-KEYWORD, dwnews, PROXY
+DOMAIN-KEYWORD, rthk, PROXY
+DOMAIN-KEYWORD, thestandnews, PROXY
