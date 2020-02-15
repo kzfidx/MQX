@@ -1,3 +1,17 @@
+/*
+[MITM]
+credits.bz.mgtv.com
+
+[rewrite_local]
+^https:\/\/credits.bz.mgtv.com\/user\/creditsTake url script-request-header mgtv.cookie.js
+
+[task_local]
+1 0 * * * mgtv.js
+
+by https://github.com/chavyleung/scripts/tree/master/mgtv
+*/
+
+
 const cookieName = '芒果TV'
 const signurlKey = 'chavy_signurl_mgtv'
 const signheaderKey = 'chavy_signheader_mgtv'
