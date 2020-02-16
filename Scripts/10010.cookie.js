@@ -14,7 +14,7 @@ by https://github.com/chavyleung/scripts/tree/2c40a8eee2af52b8a21dd8d3d931c35336
 */
 
 
-onst cookieName = '中国联通'
+const cookieName = '中国联通'
 const tokenurlKey = 'chavy_tokenurl_10010'
 const tokenheaderKey = 'chavy_tokenheader_10010'
 const signurlKey = 'chavy_signurl_10010'
