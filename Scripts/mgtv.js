@@ -18,7 +18,7 @@ function sign() {
 		const result = JSON.parse(data.match(/\(([^\)]*)\)/)[1])
 		if (result.code == 200) {
 			subTitle = `簽到結果: 成功`
-			detail = `共簽: ${result.data.curDay}天, 連簽: ${result.data.curDayTotal}天, 積分: ${result.data.balance} +${result.data.credits}）`
+			detail = `共簽: ${result.data.curDay}天, 連簽: ${result.data.curDayTotal}天, 積分: ${result.data.balance} （+${result.data.credits}）`
 		} else if (result.code == 1002) {
 			subTitle = `簽到結果: 成功 (重復簽到)`
 		} else {
