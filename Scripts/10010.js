@@ -109,7 +109,7 @@ function showmsg() {
 		const free = signinfo.info.dataList[0]
 		const flow = signinfo.info.dataList[1]
 		const voice = signinfo.info.dataList[2]
-		detail = `話費: ${free.number}${free.unit}, 已用: ${flow.number}${flow.unit}, 剩餘: ${voice.number}${voice.unit}`
+		detail = `話費: ${free.number}${free.unit}, \n已用: ${flow.number}${flow.unit}, \n剩餘: ${voice.number}${voice.unit}`
 	}
 
 	// 詳細信息
