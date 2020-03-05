@@ -70,21 +70,21 @@ async function all() {//簽到模塊相互獨立,您可注釋某一行以禁用�
   await JingRongSteel(stop); //金融鋼鏰
   await JingDongTurn(stop); //京東轉盤
   await JRDoubleSign(stop); //金融雙簽
-  await JDGroceryStore(stop); //京東超市
-  await JingDongClocks(stop); //京東鐘錶館
-  await JingDongPet(stop); //京東寵物館
+  //await JDGroceryStore(stop); //京東超市
+  //await JingDongClocks(stop); //京東鐘錶館
+  //await JingDongPet(stop); //京東寵物館
   await JDFlashSale(stop); //京東閃購
-  await JingDongBook(stop); //京東圖書
-  await JDSecondhand(stop); //京東拍拍二手
-  await JingDMakeup(stop); //京東美妝館
-  await JingDongWomen(stop); //京東女裝館
-  await JingDongCash(stop); //京東現金紅包
-  await JingDongShoes(stop); //京東鞋靴館
+  //await JingDongBook(stop); //京東圖書
+  //await JDSecondhand(stop); //京東拍拍二手
+  //await JingDMakeup(stop); //京東美妝館
+  //await JingDongWomen(stop); //京東女裝館
+  //await JingDongCash(stop); //京東現金紅包
+  //await JingDongShoes(stop); //京東鞋靴館
   //await JingRSeeAds(stop); //金融看廣告
-  await JingRongGame(stop); //金融遊戲大廳
-  await JingDongLive(stop); //京東智能生活館
-  await JingDongClean(stop); //京東清潔館
-  await JDPersonalCare(stop); //京東個人護理館
+  //await JingRongGame(stop); //金融遊戲大廳
+  //await JingDongLive(stop); //京東智能生活館
+  //await JingDongClean(stop); //京東清潔館
+  //await JDPersonalCare(stop); //京東個人護理館
   await JingDongPrize(stop); //京東抽大獎
   await JingDongShake(stop); //京東搖一搖
 
