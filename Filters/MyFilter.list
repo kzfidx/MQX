@@ -6,11 +6,19 @@ IP-CIDR, 19.89.7.0/24, DIRECT
 #DOMAIN 域名全匹配
 DOMAIN, stun.l.google.com, PROXY
 # > Gmail
-DOMAIN, pop.gmail.com, PROXY
-DOMAIN,i map.gmail.com, PROXY
-DOMAIN, smtp.gmail.com, PROXY
+DOMAIN,pop.gmail.com, PROXY
+DOMAIN,imap.gmail.com, PROXY
+DOMAIN,smtp.gmail.com, PROXY
+
+# > Outlook
+DOMAIN,outlook.office365.com, Direct
+DOMAIN,smtp.office365.com, Direct
+DOMAIN,imap-mail.outlook.com, Direct
+DOMAIN,smtp-mail.outlook.com, Direct
 
 #DOMAIN-SUFFIX 域名後綴匹配
+DOMAIN-SUFFIX, hotmail.com, Direct
+DOMAIN-SUFFIX, live.com, Direct
 DOMAIN-SUFFIX, ntdtv.com, PROXY
 DOMAIN-SUFFIX, branch.io, PROXY
 DOMAIN-SUFFIX, snapchat.com, PROXY
@@ -27,7 +35,4 @@ DOMAIN-SUFFIX, app-measurement.com, PROXY
 
 #DOMAIN-KEYWORD 域名關鍵字匹配
 DOMAIN-KEYWORD, zhs, PROXY
-DOMAIN-KEYWORD, dwnews, PROXY
-DOMAIN-KEYWORD, rthk, PROXY
-DOMAIN-KEYWORD, thestandnews, PROXY
 DOMAIN-KEYWORD, kknenws, PROXY
