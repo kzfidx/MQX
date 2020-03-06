@@ -36,3 +36,5 @@ DOMAIN-SUFFIX, app-measurement.com, PROXY
 #DOMAIN-KEYWORD 域名關鍵字匹配
 DOMAIN-KEYWORD, zhs, PROXY
 DOMAIN-KEYWORD, kknenws, PROXY
+DOMAIN-KEYWORD, thestandnews, PROXY
+
