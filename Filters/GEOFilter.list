@@ -6,6 +6,7 @@ DOMAIN-SUFFIX, cn, DIRECT
 GEOIP, CN, DIRECT
 GEOIP, TW, Global
 GEOIP, HK, Global
+GEOIP, KR, Global
 GEOIP, JP, Global
 GEOIP, US, Global
 GEOIP, RU, Global
