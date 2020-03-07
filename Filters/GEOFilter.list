@@ -1,9 +1,9 @@
 # My GEO Filter for Quantumult
 #CN域名直連
-DOMAIN-SUFFIX, cn, inbound
+DOMAIN-SUFFIX, cn, Inbound
 
 #GEOIP IP地域判斷
-GEOIP, CN, inbound
+GEOIP, CN, Inbound
 GEOIP, TW, Outbound
 GEOIP, HK, Outbound
 GEOIP, KR, Outbound
