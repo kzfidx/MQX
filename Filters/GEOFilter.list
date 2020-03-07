@@ -4,10 +4,10 @@ DOMAIN-SUFFIX, cn, China
 
 #GEOIP IP地域判斷
 GEOIP, CN, China
-GEOIP, TW, Global
-GEOIP, HK, Global
-GEOIP, KR, Global
-GEOIP, JP, Global
-GEOIP, US, Global
-GEOIP, RU, Global
+GEOIP, TW, Outbound
+GEOIP, HK, Outbound
+GEOIP, KR, Outbound
+GEOIP, JP, Outbound
+GEOIP, US, Outbound
+GEOIP, RU, Outbound
 
