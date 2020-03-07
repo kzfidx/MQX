@@ -9,6 +9,8 @@ DOMAIN-SUFFIX, live.com, DIRECT
 #>>Other
 USER-AGENT,OneDrive*,PROXY
 
+DOMAIN,oneclient.sfx.ms,PROXY
+
 DOMAIN-KEYWORD,onedrive,PROXY
 
 DOMAIN-SUFFIX,1drv.com,PROXY
@@ -21,5 +23,3 @@ DOMAIN-SUFFIX,storage.msn.com,PROXY
 DOMAIN-SUFFIX,onedrive.live.com,PROXY
 DOMAIN-SUFFIX,xboxlive.com,PROXY
 DOMAIN-SUFFIX,skype.com,PROXY
-
-DOMAIN,oneclient.sfx.ms,PROXY
