@@ -7,19 +7,19 @@ DOMAIN,smtp-mail.outlook.com, DIRECT
 DOMAIN-SUFFIX, hotmail.com, DIRECT
 DOMAIN-SUFFIX, live.com, DIRECT
 #>>Other
-USER-AGENT,OneDrive*,PROXY
+USER-AGENT,OneDrive*,GLOBAL
 
-DOMAIN,oneclient.sfx.ms,PROXY
+DOMAIN,oneclient.sfx.ms,GLOBAL
 
-DOMAIN-KEYWORD,onedrive,PROXY
+DOMAIN-KEYWORD,onedrive,GLOBAL
 
-DOMAIN-SUFFIX,1drv.com,PROXY
-DOMAIN-SUFFIX,1drv.ms,PROXY
-DOMAIN-SUFFIX,blob.core.windows.net,PROXY
-DOMAIN-SUFFIX,livefilestore.com,PROXY
-DOMAIN-SUFFIX,onedrive.com,PROXY
-DOMAIN-SUFFIX,storage.live.com,PROXY
-DOMAIN-SUFFIX,storage.msn.com,PROXY
-DOMAIN-SUFFIX,onedrive.live.com,PROXY
-DOMAIN-SUFFIX,xboxlive.com,PROXY
-DOMAIN-SUFFIX,skype.com,PROXY
+DOMAIN-SUFFIX,1drv.com,GLOBAL
+DOMAIN-SUFFIX,1drv.ms,GLOBAL
+DOMAIN-SUFFIX,blob.core.windows.net,GLOBAL
+DOMAIN-SUFFIX,livefilestore.com,GLOBAL
+DOMAIN-SUFFIX,onedrive.com,GLOBAL
+DOMAIN-SUFFIX,storage.live.com,GLOBAL
+DOMAIN-SUFFIX,storage.msn.com,GLOBAL
+DOMAIN-SUFFIX,onedrive.live.com,GLOBAL
+DOMAIN-SUFFIX,xboxlive.com,GLOBAL
+DOMAIN-SUFFIX,skype.com,GLOBAL
