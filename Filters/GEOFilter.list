@@ -1,9 +1,9 @@
 # My GEO Filter for Quantumult
 #CN域名直連
-DOMAIN-SUFFIX, cn, DIRECT
+DOMAIN-SUFFIX, cn, China
 
 #GEOIP IP地域判斷
-GEOIP, CN, DIRECT
+GEOIP, CN, China
 GEOIP, TW, Global
 GEOIP, HK, Global
 GEOIP, KR, Global
