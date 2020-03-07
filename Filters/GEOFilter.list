@@ -8,9 +8,6 @@ DOMAIN-SUFFIX, jp, Outbound
 #GEOIP IP地域判斷
 GEOIP, CN, Inbound
 
-GEOIP, A1, Outbound
-GEOIP, A2, Outbound
-GEOIP, O1, Outbound
 GEOIP, AD, Outbound
 GEOIP, AE, Outbound
 GEOIP, AF, Outbound
