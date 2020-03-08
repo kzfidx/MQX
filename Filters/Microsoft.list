@@ -4,5 +4,5 @@ DOMAIN,outlook.office365.com, Inbound
 DOMAIN,smtp.office365.com, Inbound
 DOMAIN,imap-mail.outlook.com, Inbound
 DOMAIN,smtp-mail.outlook.com, Inbound
-DOMAIN-SUFFIX, hotmail.com, Inboud
-DOMAIN-SUFFIX, live.com, Inboud
+DOMAIN-SUFFIX, hotmail.com, Inbound
+DOMAIN-SUFFIX, live.com, Inbound
