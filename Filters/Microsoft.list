@@ -1,13 +1,12 @@
 #>Microsoft
-DOMAIN-SUFFIX, hotmail.com, Microsoft
-DOMAIN-SUFFIX, live.com, Microsoft
-DOMAIN-SUFFIX,microsoft.com,Microsoft
-DOMAIN-SUFFIX,msecnd.net,Microsoft
-DOMAIN-SUFFIX,office365.com,Microsoft
-DOMAIN-SUFFIX,outlook.com,Microsoft
-DOMAIN-SUFFIX,s-microsoft.com,Microsoft
-DOMAIN-SUFFIX,visualstudio.com,Microsoft
-DOMAIN-SUFFIX,windows.com,Microsoft
-DOMAIN-SUFFIX,windowsupdate.com,Microsoft
-
-DOMAIN-KEYWORD, microsoft ,Microsoft
+DOMAIN-SUFFIX, hotmail.com, Inbound
+DOMAIN-SUFFIX, live.com, Inbound
+DOMAIN-SUFFIX,microsoft.com,Inbound
+DOMAIN-SUFFIX,msecnd.net,Inbound
+DOMAIN-SUFFIX,office365.com,Inbound
+DOMAIN-SUFFIX,outlook.com,Inbound
+DOMAIN-SUFFIX,s-microsoft.com,Inbound
+DOMAIN-SUFFIX,visualstudio.com,Inbound
+DOMAIN-SUFFIX,windows.com,Inbound
+DOMAIN-SUFFIX,windowsupdate.com,Inbound
+DOMAIN-KEYWORD, microsoft ,Inbound
