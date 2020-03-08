@@ -1,8 +1,13 @@
-#>Outlook
-# > >Outlook
-DOMAIN,outlook.office365.com, Outlook
-DOMAIN,smtp.office365.com, Outlook
-DOMAIN,imap-mail.outlook.com, Outlook
-DOMAIN,smtp-mail.outlook.com, Outlook
-DOMAIN-SUFFIX, hotmail.com, Outlook
-DOMAIN-SUFFIX, live.com, Outlook
+#>Microsoft
+DOMAIN-SUFFIX, hotmail.com, Microsoft
+DOMAIN-SUFFIX, live.com, Microsoft
+DOMAIN-SUFFIX,microsoft.com,Microsoft
+DOMAIN-SUFFIX,msecnd.net,Microsoft
+DOMAIN-SUFFIX,office365.com,Microsoft
+DOMAIN-SUFFIX,outlook.com,Microsoft
+DOMAIN-SUFFIX,s-microsoft.com,Microsoft
+DOMAIN-SUFFIX,visualstudio.com,Microsoft
+DOMAIN-SUFFIX,windows.com,Microsoft
+DOMAIN-SUFFIX,windowsupdate.com,Microsoft
+
+DOMAIN-KEYWORD, microsoft ,Microsoft
