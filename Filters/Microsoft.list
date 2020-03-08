@@ -1,8 +1,8 @@
 #>Microsoft
 # > >Outlook
-DOMAIN,outlook.office365.com, DIRECT
-DOMAIN,smtp.office365.com, DIRECT
-DOMAIN,imap-mail.outlook.com, DIRECT
-DOMAIN,smtp-mail.outlook.com, DIRECT
-DOMAIN-SUFFIX, hotmail.com, DIRECT
-DOMAIN-SUFFIX, live.com, DIRECT
+DOMAIN,outlook.office365.com, Inbound
+DOMAIN,smtp.office365.com, Inbound
+DOMAIN,imap-mail.outlook.com, Inbound
+DOMAIN,smtp-mail.outlook.com, Inbound
+DOMAIN-SUFFIX, hotmail.com, Inboud
+DOMAIN-SUFFIX, live.com, Inboud
