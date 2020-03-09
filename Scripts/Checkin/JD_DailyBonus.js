@@ -1,7 +1,7 @@
 /*
 京東多合一簽到腳本
 
-更新於: 2020.3.5 0:10 v76
+更新於: 2020.3.6 22:00 v77
 有效接口: 21
 
 該腳本同時兼容: QuantumultX, Surge, Loon, JSBox, Node.js
@@ -43,6 +43,7 @@ QX 1.0.5+ :
 
 [task_local]
 # 京東多合一簽到
+
 5 0 * * * JD_DailyBonus.js
 
 [rewrite_local]
@@ -61,7 +62,6 @@ var $nobyda = nobyda();
 
 //  填此處↓↓↓
 var Key = ''; //如果使用JSBox或Node.js, 此處自行抓包填寫您的Cookie.
-//  填此處↑↑↑
 
 var KEY = Key?Key:$nobyda.read("CookieJD")
 async function all() {//簽到模塊相互獨立,您可注釋某一行以禁用某個接口.
@@ -70,21 +70,21 @@ async function all() {//簽到模塊相互獨立,您可注釋某一行以禁用�
   await JingRongSteel(stop); //金融鋼鏰
   await JingDongTurn(stop); //京東轉盤
   await JRDoubleSign(stop); //金融雙簽
-  //await JDGroceryStore(stop); //京東超市
-  //await JingDongClocks(stop); //京東鐘錶館
-  //await JingDongPet(stop); //京東寵物館
+  await JDGroceryStore(stop); //京東超市
+  await JingDongClocks(stop); //京東鐘錶館
+  await JingDongPet(stop); //京東寵物館
   await JDFlashSale(stop); //京東閃購
-  //await JingDongBook(stop); //京東圖書
-  //await JDSecondhand(stop); //京東拍拍二手
-  //await JingDMakeup(stop); //京東美妝館
-  //await JingDongWomen(stop); //京東女裝館
-  //await JingDongCash(stop); //京東現金紅包
-  //await JingDongShoes(stop); //京東鞋靴館
-  //await JingRSeeAds(stop); //金融看廣告
-  //await JingRongGame(stop); //金融遊戲大廳
-  //await JingDongLive(stop); //京東智能生活館
-  //await JingDongClean(stop); //京東清潔館
-  //await JDPersonalCare(stop); //京東個人護理館
+  await JingDongBook(stop); //京東圖書
+  await JDSecondhand(stop); //京東拍拍二手
+  await JingDMakeup(stop); //京東美妝館
+  await JingDongWomen(stop); //京東女裝館
+  await JingDongCash(stop); //京東現金紅包
+  await JingDongShoes(stop); //京東鞋靴館
+  await JingRSeeAds(stop); //金融看廣告
+  await JingRongGame(stop); //金融遊戲大廳
+  await JingDongLive(stop); //京東智能生活館
+  await JingDongClean(stop); //京東清潔館
+  await JDPersonalCare(stop); //京東個人護理館
   await JingDongPrize(stop); //京東抽大獎
   await JingDongShake(stop); //京東搖一搖
 
@@ -797,8 +797,8 @@ function JDFlashSale(s) {
               merge.JDFSale.fail = 1
             } else {
               if (data.match(/(不存在|已結束|\"2008\")/)) {
-                merge.JDFSale.notify = "京東商城-閃購: 失敗, 原因: 需瓜分 ⚠️"
-                merge.JDFSale.fail = 1
+               // merge.JDFSale.notify = "京東商城-閃購: 失敗, 原因: 需瓜分 ⚠️"
+                //merge.JDFSale.fail = 1
                 FlashSaleDivide(s)
               } else {
                 if (data.match(/(\"code\":\"3\"|\"1003\")/)) {
@@ -835,36 +835,36 @@ function FlashSaleDivide(s) {
     $nobyda.post(Url, function(error, response, data) {
       try {
         if (error) {
-          merge.JDFSale.notify += "\n京東閃購-瓜分: 簽到接口請求失敗 ‼️‼️"
-          merge.JDFSale.fail += 1
+          merge.JDFSale.notify = "京東閃購-瓜分: 簽到接口請求失敗 ‼️‼️"
+          merge.JDFSale.fail = 1
         } else {
           const cc = JSON.parse(data)
           if (cc.result.code == 0) {
             if (log) console.log("京東閃購-瓜分簽到成功response: \n" + data)
             if (data.match(/(\"jdBeanNum\":\d+)/)) {
-              merge.JDFSale.notify += "\n京東閃購-瓜分: 成功, 明細: " + cc.result.jdBeanNum + "京豆 🐶"
+              merge.JDFSale.notify = "京東閃購-瓜分: 成功, 明細: " + cc.result.jdBeanNum + "京豆 🐶"
               merge.JDFSale.bean = cc.result.jdBeanNum
               merge.JDFSale.success = 1
             } else {
-              merge.JDFSale.notify += "\n京東閃購-瓜分: 成功, 明細: 無京豆 🐶"
+              merge.JDFSale.notify = "京東閃購-瓜分: 成功, 明細: 無京豆 🐶"
               merge.JDFSale.success = 1
             }
           } else {
             if (log) console.log("京東閃購-瓜分簽到失敗response: \n" + data)
             if (data.match(/(已參與|已領取|\"2006\")/)) {
-              merge.JDFSale.notify += "\n京東閃購-瓜分: 失敗, 原因: 已瓜分 ⚠️"
-              merge.JDFSale.fail += 1
+              merge.JDFSale.notify = "京東閃購-瓜分: 失敗, 原因: 已瓜分 ⚠️"
+              merge.JDFSale.fail = 1
             } else {
               if (data.match(/(不存在|已結束|未開始|\"2008\")/)) {
-                merge.JDFSale.notify += "\n京東閃購-瓜分: 失敗, 原因: 活動已結束 ⚠️"
-                merge.JDFSale.fail += 1
+                merge.JDFSale.notify = "京東閃購-瓜分: 失敗, 原因: 活動已結束 ⚠️"
+                merge.JDFSale.fail = 1
               } else {
                 if (data.match(/(\"code\":\"1003\"|未獲取)/)) {
-                  merge.JDFSale.notify += "\n京東閃購-瓜分: 失敗, 原因: Cookie失效‼️"
-                  merge.JDFSale.fail += 1
+                  merge.JDFSale.notify = "京東閃購-瓜分: 失敗, 原因: Cookie失效‼️"
+                  merge.JDFSale.fail = 1
                 } else {
-                  merge.JDFSale.notify += "\n京東閃購-瓜分: 失敗, 原因: 未知 ⚠️"
-                  merge.JDFSale.fail += 1
+                  merge.JDFSale.notify = "京東閃購-瓜分: 失敗, 原因: 未知 ⚠️"
+                  merge.JDFSale.fail = 1
                 }
               }
             }
