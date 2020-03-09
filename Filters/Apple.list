@@ -20,11 +20,13 @@ USER-AGENT,TestFlight*,Inbound
 
 DOMAIN,www-cdn.icloud.com.akadns.net,Inbound
 
+DOMAIN-SUFFIX,apple.comscoreresearch.com,Inbound
 DOMAIN-SUFFIX,appsto.re,Inbound
 DOMAIN-SUFFIX,apple.co,Inbound
 DOMAIN-SUFFIX,apple.com,Inbound
 DOMAIN-SUFFIX,apple.com.cn,Inbound
 DOMAIN-SUFFIX,apple-cloudkit.com,Inbound
+DOMAIN-SUFFIX,apple-dns.net,Inbound
 DOMAIN-SUFFIX,appstore.com,Inbound
 DOMAIN-SUFFIX,cdn-apple.com,Inbound
 DOMAIN-SUFFIX,api.smoot.apple.cn,Inbound
