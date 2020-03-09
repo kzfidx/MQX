@@ -1,8 +1,10 @@
 #>Microsoft
+DOMAIN-SUFFIX, hockeyapp.net, Inbound
 DOMAIN-SUFFIX, hotmail.com, Inbound
 DOMAIN-SUFFIX, live.com, Inbound
 DOMAIN-SUFFIX,microsoft.com,Inbound
 DOMAIN-SUFFIX,msecnd.net,Inbound
+DOMAIN-SUFFIX,msauth.net,Inbound
 DOMAIN-SUFFIX,office365.com,Inbound
 DOMAIN-SUFFIX,outlook.com,Inbound
 DOMAIN-SUFFIX,s-microsoft.com,Inbound
