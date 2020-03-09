@@ -12,4 +12,3 @@ DOMAIN-SUFFIX,s-microsoft.com,Inbound
 DOMAIN-SUFFIX,visualstudio.com,Inbound
 DOMAIN-SUFFIX,windows.com,Inbound
 DOMAIN-SUFFIX,windowsupdate.com,Inbound
-DOMAIN-KEYWORD, microsoft ,Inbound
