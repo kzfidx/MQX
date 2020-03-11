@@ -1,4 +1,4 @@
-# 如无特殊需求可不用加此策略及选择代理，在大部分地区 Inbound CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
+# 如无特殊需求可不用加此策略及选择代理，在大部分地区 CDN 可正常工作，使用代理后可能导致「Cannot Connect to iCloud」等问题
 # > APPLE
 USER-AGENT,*com.apple.mobileme.fmip1,Inbound
 USER-AGENT,*WeatherFoundation*,Inbound
