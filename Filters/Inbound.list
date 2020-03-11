@@ -1,0 +1,9 @@
+#Inbound
+
+#Alipay
+DOMAIN-SUFFIX,alipay.com,Inbound
+DOMAIN-SUFFIX,alipay.hk,Inbound
+
+#Tap&Go
+DOMAIN-SUFFIX,tapngo.com.hk,Inbound
+
