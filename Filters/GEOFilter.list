@@ -1,12 +1,24 @@
 # My GEO Filter for Quantumult
 #地區域名
 DOMAIN-SUFFIX, cn, Inbound
-DOMAIN-SUFFIX, hk, SAR
-DOMAIN-SUFFIX, tw, SAR
-DOMAIN-SUFFIX, jp, JP
+DOMAIN-SUFFIX, hk, Cuniculum
+DOMAIN-SUFFIX, tw, Cuniculum
+DOMAIN-SUFFIX, jp, Cuniculum
 
 #GEOIP IP地域判斷
 GEOIP, CN, Inbound
+
+GEOIP, HK, Cuniculum
+GEOIP, MO, Cuniculum
+GEOIP, TW, Cuniculum
+
+GEOIP, CA, Cuniculum
+GEOIP, JP, Cuniculum
+GEOIP, KR, Cuniculum
+GEOIP, RU, Cuniculum
+GEOIP, SG, Cuniculum
+GEOIP, GB, Cuniculum
+GEOIP, US, Cuniculum
 
 GEOIP, AD, Outbound
 GEOIP, AE, Outbound
@@ -19,7 +31,6 @@ GEOIP, AO, Outbound
 GEOIP, AQ, Outbound
 GEOIP, AR, Outbound
 GEOIP, AS, Outbound
-GEOIP, AT, EU
 GEOIP, AU, Outbound
 GEOIP, AW, Outbound
 GEOIP, AX, Outbound
@@ -27,7 +38,6 @@ GEOIP, AZ, Outbound
 GEOIP, BA, Outbound
 GEOIP, BB, Outbound
 GEOIP, BD, Outbound
-GEOIP, BE, EU
 GEOIP, BF, Outbound
 GEOIP, BG, Outbound
 GEOIP, BH, Outbound
@@ -45,7 +55,6 @@ GEOIP, BV, Outbound
 GEOIP, BW, Outbound
 GEOIP, BY, Outbound
 GEOIP, BZ, Outbound
-GEOIP, CA, CA
 GEOIP, CC, Outbound
 GEOIP, CD, Outbound
 GEOIP, CF, Outbound
@@ -61,29 +70,20 @@ GEOIP, CU, Outbound
 GEOIP, CV, Outbound
 GEOIP, CW, Outbound
 GEOIP, CX, Outbound
-GEOIP, CY, EU
-GEOIP, CZ, EU
-GEOIP, DE, EU
 GEOIP, DJ, Outbound
-GEOIP, DK, EU
 GEOIP, DM, Outbound
 GEOIP, DO, Outbound
 GEOIP, DZ, Outbound
 GEOIP, EC, Outbound
-GEOIP, EE, EU
 GEOIP, EG, Outbound
 GEOIP, EH, Outbound
 GEOIP, ER, Outbound
-GEOIP, ES, EU
 GEOIP, ET, Outbound
-GEOIP, FI, EU
 GEOIP, FJ, Outbound
 GEOIP, FK, Outbound
 GEOIP, FM, Outbound
 GEOIP, FO, Outbound
-GEOIP, FR, EU
 GEOIP, GA, Outbound
-GEOIP, GB, UK
 GEOIP, GD, Outbound
 GEOIP, GE, Outbound
 GEOIP, GF, Outbound
@@ -95,20 +95,16 @@ GEOIP, GM, Outbound
 GEOIP, GN, Outbound
 GEOIP, GP, Outbound
 GEOIP, GQ, Outbound
-GEOIP, GR, EU
 GEOIP, GS, Outbound
 GEOIP, GT, Outbound
 GEOIP, GU, Outbound
 GEOIP, GW, Outbound
 GEOIP, GY, Outbound
-GEOIP, HK, SAR
 GEOIP, HM, Outbound
 GEOIP, HN, Outbound
-GEOIP, HR, EU
 GEOIP, HT, Outbound
 GEOIP, HU, Outbound
 GEOIP, ID, Outbound
-GEOIP, IE, EU
 GEOIP, IL, Outbound
 GEOIP, IM, Outbound
 GEOIP, IN, Outbound
@@ -116,11 +112,9 @@ GEOIP, IO, Outbound
 GEOIP, IQ, Outbound
 GEOIP, IR, Outbound
 GEOIP, IS, Outbound
-GEOIP, IT, EU
 GEOIP, JE, Outbound
 GEOIP, JM, Outbound
 GEOIP, JO, Outbound
-GEOIP, JP, JP
 GEOIP, KE, Outbound
 GEOIP, KG, Outbound
 GEOIP, KH, Outbound
@@ -128,7 +122,6 @@ GEOIP, KI, Outbound
 GEOIP, KM, Outbound
 GEOIP, KN, Outbound
 GEOIP, KP, Outbound
-GEOIP, KR, KR
 GEOIP, KW, Outbound
 GEOIP, KY, Outbound
 GEOIP, KZ, Outbound
@@ -139,9 +132,6 @@ GEOIP, LI, Outbound
 GEOIP, LK, Outbound
 GEOIP, LR, Outbound
 GEOIP, LS, Outbound
-GEOIP, LT, EU
-GEOIP, LU, EU
-GEOIP, LV, EU
 GEOIP, LY, Outbound
 GEOIP, MA, Outbound
 GEOIP, MC, Outbound
@@ -154,12 +144,10 @@ GEOIP, MK, Outbound
 GEOIP, ML, Outbound
 GEOIP, MM, Outbound
 GEOIP, MN, Outbound
-GEOIP, MO, SAR
 GEOIP, MP, Outbound
 GEOIP, MQ, Outbound
 GEOIP, MR, Outbound
 GEOIP, MS, Outbound
-GEOIP, MT, EU
 GEOIP, MU, Outbound
 GEOIP, MV, Outbound
 GEOIP, MW, Outbound
@@ -172,7 +160,6 @@ GEOIP, NE, Outbound
 GEOIP, NF, Outbound
 GEOIP, NG, Outbound
 GEOIP, NI, Outbound
-GEOIP, NL, EU
 GEOIP, NO, Outbound
 GEOIP, NP, Outbound
 GEOIP, NR, Outbound
@@ -185,30 +172,22 @@ GEOIP, PF, Outbound
 GEOIP, PG, Outbound
 GEOIP, PH, Outbound
 GEOIP, PK, Outbound
-GEOIP, PL, EU
 GEOIP, PM, Outbound
 GEOIP, PN, Outbound
 GEOIP, PR, Outbound
 GEOIP, PS, Outbound
-GEOIP, PT, EU
 GEOIP, PW, Outbound
 GEOIP, PY, Outbound
 GEOIP, QA, Outbound
 GEOIP, RE, Outbound
-GEOIP, RO, EU
 GEOIP, RS, Outbound
-GEOIP, RU, RU
 GEOIP, RW, Outbound
 GEOIP, SA, Outbound
 GEOIP, SB, Outbound
 GEOIP, SC, Outbound
 GEOIP, SD, Outbound
-GEOIP, SE, EU
-GEOIP, SG, SG
 GEOIP, SH, Outbound
-GEOIP, SI, EU
 GEOIP, SJ, Outbound
-GEOIP, SK, EU
 GEOIP, SL, Outbound
 GEOIP, SM, Outbound
 GEOIP, SN, Outbound
@@ -234,12 +213,10 @@ GEOIP, TO, Outbound
 GEOIP, TR, Outbound
 GEOIP, TT, Outbound
 GEOIP, TV, Outbound
-GEOIP, TW, SAR
 GEOIP, TZ, Outbound
 GEOIP, UA, Outbound
 GEOIP, UG, Outbound
 GEOIP, UM, Outbound
-GEOIP, US, US
 GEOIP, UY, Outbound
 GEOIP, UZ, Outbound
 GEOIP, VA, Outbound
@@ -256,5 +233,3 @@ GEOIP, YT, Outbound
 GEOIP, ZA, Outbound
 GEOIP, ZM, Outbound
 GEOIP, ZW, Outbound
-
-
