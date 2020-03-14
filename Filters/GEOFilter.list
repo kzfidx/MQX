@@ -1,5 +1,5 @@
 # My GEO Filter for Quantumult
-#CN域名直連
+#地區域名
 DOMAIN-SUFFIX, cn, Inbound
 DOMAIN-SUFFIX, hk, SAR
 DOMAIN-SUFFIX, tw, SAR
