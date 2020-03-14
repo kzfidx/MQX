@@ -41,7 +41,7 @@ DOMAIN-SUFFIX,aaplimg.com,Inbound
 IP-CIDR,17.0.0.0/8,Inbound
 
 
-#Alipay
+#>Alipay
 DOMAIN-SUFFIX,alipay.com,Inbound
 DOMAIN-SUFFIX,alipay.hk,Inbound
 DOMAIN-SUFFIX,codpayment.com,Inbound
@@ -61,6 +61,6 @@ DOMAIN-SUFFIX,visualstudio.com,Inbound
 DOMAIN-SUFFIX,windows.com,Inbound
 DOMAIN-SUFFIX,windowsupdate.com,Inbound
 
-#Tap&Go
+#>Tap&Go
 DOMAIN-SUFFIX,tapngo.com.hk,Inbound
 
