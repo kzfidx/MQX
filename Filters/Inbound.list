@@ -46,6 +46,9 @@ DOMAIN-SUFFIX,alipay.com,Inbound
 DOMAIN-SUFFIX,alipay.hk,Inbound
 DOMAIN-SUFFIX,codpayment.com,Inbound
 
+#>AQI
+DOMAIN,api.waqi.info,Inbound
+
 #>Microsoft
 DOMAIN-SUFFIX, hockeyapp.net, Inbound
 DOMAIN-SUFFIX, hotmail.com, Inbound
