@@ -40,11 +40,13 @@ DOMAIN-SUFFIX,aaplimg.com,Inbound
 
 IP-CIDR,17.0.0.0/8,Inbound
 
-
 #>Alipay
 DOMAIN-SUFFIX,alipay.com,Inbound
 DOMAIN-SUFFIX,alipay.hk,Inbound
 DOMAIN-SUFFIX,codpayment.com,Inbound
+
+#>AQI
+DOMAIN,api.waqi.info,Inbound
 
 #>Microsoft
 DOMAIN-SUFFIX, hockeyapp.net, Inbound
