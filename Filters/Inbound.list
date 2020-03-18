@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,olsvc.com,Inbound
 DOMAIN-SUFFIX,office365.com,Inbound
 DOMAIN-SUFFIX,outlook.com,Inbound
 DOMAIN-SUFFIX,s-microsoft.com,Inbound
+DOMAIN-SUFFIX,sharepoint.com,Inbound
 DOMAIN-SUFFIX,visualstudio.com,Inbound
 DOMAIN-SUFFIX,windows.com,Inbound
 DOMAIN-SUFFIX,windowsupdate.com,Inbound
