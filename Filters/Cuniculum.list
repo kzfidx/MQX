@@ -11,3 +11,6 @@
 ;DOMAIN-SUFFIX,apple.comscoreresearch.com,Cuniculum
 ;DOMAIN-SUFFIX,appsto.re,Cuniculum
 ;DOMAIN-SUFFIX,smoot.apple.com,Cuniculum
+
+#Google
+DOMAIN-KEYWORD,ampproject,Cuniculum
