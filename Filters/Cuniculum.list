@@ -1,6 +1,6 @@
 #Cuniculum
 # > Apple
-;DOMAIN,lookup-api.apple.com,Cuniculum
+DOMAIN,lookup-api.apple.com,Cuniculum
 ;DOMAIN,p56-keyvalueservice.icloud.com,Cuniculum
 ;DOMAIN,testflight.apple.com,Cuniculum
 ;DOMAIN,books.itunes.apple.com,Cuniculum
@@ -10,7 +10,8 @@
 
 ;DOMAIN-SUFFIX,apple.comscoreresearch.com,Cuniculum
 ;DOMAIN-SUFFIX,appsto.re,Cuniculum
-;DOMAIN-SUFFIX,smoot.apple.com,Cuniculum
+
+DOMAIN-KEYWORD,smoot.apple.com,Cuniculum
 
 #Google
 DOMAIN-KEYWORD,ampproject,Cuniculum
