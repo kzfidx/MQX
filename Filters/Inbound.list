@@ -16,7 +16,7 @@ USER-AGENT,fmflocatord*,Inbound
 USER-AGENT,geod*,Inbound
 USER-AGENT,locationd*,Inbound
 USER-AGENT,Maps*,Inbound
-USER-AGENT,TestFlight*,Inbound
+
 
 DOMAIN,www-cdn.icloud.com.akadns.net,Inbound
 
@@ -29,7 +29,6 @@ DOMAIN-SUFFIX,apple-cloudkit.com,Inbound
 DOMAIN-SUFFIX,apple-dns.net,Inbound
 DOMAIN-SUFFIX,appstore.com,Inbound
 DOMAIN-SUFFIX,cdn-apple.com,Inbound
-DOMAIN-SUFFIX,api.smoot.apple.cn,Inbound
 DOMAIN-SUFFIX,crashlytics.com,Inbound
 DOMAIN-SUFFIX,icloud.com,Inbound
 DOMAIN-SUFFIX,icloud-content.com,Inbound
