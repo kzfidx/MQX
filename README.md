@@ -1,7 +1,7 @@
 ## My QuantumultX Files
 
-* [更多內容](更多內容)
-* [Fork](Fork)
+* [更多內容](#更多內容)
+* [Fork](#Fork)
 
 ---
 
