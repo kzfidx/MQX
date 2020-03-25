@@ -27,7 +27,7 @@
 
 ### Fork
 
-- [神機規則](https://kwokzit.info/ConnersHua)  >>> [[目錄](https://kwokzit.info/ConnersHua/docs)] >>>[repository](https://github.com/ConnersHua/Profiles/tree/master)
-- [lhie1](https://kwokzit.info/lhie1) >>>[[目錄](https://kwokzit.info/lhie1/docs)] >>>[repository](https://github.com/lhie1/Rules)
-- [GeQ1an](https://kwokzit.info/GeQ1an) >>>[[目錄](https://kwokzit.info/GeQ1an/docs)] >>>[repository](https://github.com/GeQ1an/Rules)
+- [神機規則](https://kwokzit.info/ConnersHua)  >>> [[TOC](https://kwokzit.info/ConnersHua/TOC)] >>>[repository](https://github.com/ConnersHua/Profiles/tree/master)
+- [lhie1](https://kwokzit.info/lhie1) >>>[[TOC](https://kwokzit.info/lhie1/TOC)] >>>[repository](https://github.com/lhie1/Rules)
+- [GeQ1an](https://kwokzit.info/GeQ1an) >>>[[TOC](https://kwokzit.info/GeQ1an/TOC)] >>>[repository](https://github.com/GeQ1an/Rules)
 
