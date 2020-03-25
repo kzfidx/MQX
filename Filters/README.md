@@ -1,4 +1,4 @@
-# Filters：
+#### Filters：
 
 - [Inbound](https://kwokzit.info/MQX/Filters/Inbound.list)👈複製這個連結>>自用需要**直連**的地址；
 
@@ -6,7 +6,7 @@
 
 - [GEO IP](https://kwokzit.info/MQX/Filters/GEOFilter.list)👈複製這個連結>>根據**GEO**分流；
 
-## 其他分流策略：
+#### 其他分流策略：
 
 - [Advertising](https://kwokzit.info/MQX/Filters/Advertising.list)👈複製這個連結>>自己整合的廣告規則；
 
