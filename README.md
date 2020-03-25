@@ -1,9 +1,5 @@
 ## My QuantumultX Files
 
-[TOC]
-
-
-
 現在自用的[QuantumultX策略](https://kwokzit.info/MQX/Profile/1585140196)👈複製這個連結，然後：
 
 ![Profile](https://kwokzit.info/MQX/Profile/Profile.png "Proflie Download")
