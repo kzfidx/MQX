@@ -47,6 +47,9 @@ DOMAIN-SUFFIX,codpayment.com,Inbound
 #>AQI
 DOMAIN,api.waqi.info,Inbound
 
+#Kwokzit.info
+DOMAIN-SUFFIX, kwokzit.info, Inbound
+
 #>Microsoft
 DOMAIN-SUFFIX, hockeyapp.net, Inbound
 DOMAIN-SUFFIX, hotmail.com, Inbound
