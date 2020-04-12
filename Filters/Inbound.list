@@ -30,6 +30,11 @@ DOMAIN-SUFFIX,windowsupdate.com,Inbound
 #>Tap&Go
 DOMAIN-SUFFIX,tapngo.com.hk,Inbound
 
+#Tophub
+DOMAIN-KEYWORD, popin.cc, Inbound
+DOMAIN-SUFFIX, tophub.today, Inbound
+
+
 #>Xiaomi
 DOMAIN-SUFFIX, xiaomi.com,Inbound
 
