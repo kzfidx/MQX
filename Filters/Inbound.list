@@ -8,6 +8,10 @@ DOMAIN-SUFFIX,codpayment.com,Inbound
 #>AQI
 DOMAIN,api.waqi.info,Inbound
 
+#>Baidu
+DOMAIN-SUFFIX, baidu.com, Inbound
+DOMAIN-KEYWORD, baidu, Inbound
+
 #Kwokzit.info
 DOMAIN-SUFFIX, kwokzit.info, Inbound
 
