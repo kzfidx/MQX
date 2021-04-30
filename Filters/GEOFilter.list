@@ -12,6 +12,7 @@ GEOIP, HK, Cuniculum
 GEOIP, MO, Cuniculum
 GEOIP, TW, Cuniculum
 
+GEOIP, AG, Cuniculum
 GEOIP, CA, Cuniculum
 GEOIP, JP, Cuniculum
 GEOIP, KR, Cuniculum
@@ -49,7 +50,6 @@ GEOIP, SK, EU
 GEOIP, AD, Outbound
 GEOIP, AE, Outbound
 GEOIP, AF, Outbound
-GEOIP, AG, Outbound
 GEOIP, AI, Outbound
 GEOIP, AL, Outbound
 GEOIP, AM, Outbound
