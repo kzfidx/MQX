@@ -13,6 +13,10 @@ DOMAIN,lookup-api.apple.com,Cuniculum
 
 DOMAIN-KEYWORD,smoot.apple.com,Cuniculum
 
+#Facebook
+DOMAIN-KEYWORD, facebook, Cuniculum
+
+
 #Google
 DOMAIN-KEYWORD,ampproject,Cuniculum
 
